@@ -112,6 +112,11 @@ nav ul li a {
   100% { color: #ff0000; }
 }
 
+a{
+  animation: rainbow 8s linear infinite;
+  text-decoration: none;
+}
+
 h1 {
   text-align: center;
   animation: rainbow 8s linear infinite;
