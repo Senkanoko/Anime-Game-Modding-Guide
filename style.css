@@ -133,7 +133,7 @@ h3{
 details summary {
   color: lightsalmon;
   font-weight: 500;
-  list-style-type: upper-alpha;
+  list-style: none;
   margin-left: 10px;
   cursor: pointer;
 }
