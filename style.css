@@ -1,0 +1,200 @@
+body{
+  font-family:  "Segoe UI", sans-serif;
+  background-image: url(images/windowsvistaaurora.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 10;
+}
+
+.header-container {
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.2); 
+  border-radius: 12px; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+  backdrop-filter: blur(1px); 
+  margin: 10px auto;
+  min-height: calc(100vh - 50px);
+}
+
+.detail{
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.imgspc {
+    padding: 20px;
+}
+
+.imgspc {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgspc img {
+    max-width: 100%;
+    width: auto !important;
+    height: auto !important;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .imgspc {
+        padding: 10px;
+    }
+    .imgspc img {
+        max-width: 90%;
+    }
+}
+
+.profile {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+
+.profile img {
+  width: 42px; 
+  height: 42px;
+  border-radius: 50%; 
+}
+
+.profile p {
+  color: lightgray;
+  font-size: 16px; 
+  font-weight:400;
+  margin: 0; 
+}
+
+nav {
+  display: flex;
+  margin-left: auto; /* Push the nav to the right */
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: lightgray;
+  font-weight: 400;
+}
+
+@keyframes rainbow {
+  0% { color: #ff0000; }
+  17% { color: #ff00ff; }
+  33% { color: #0000ff; }
+  50% { color: #00ffff; }
+  67% { color: #00ff00; }
+  83% { color: #ffff00; }
+  100% { color: #ff0000; }
+}
+
+h1 {
+  text-align: center;
+  animation: rainbow 8s linear infinite;
+  font-weight: 500;
+}
+
+h2{
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+h3{
+  margin-bottom: 1px;
+  font-weight: 500;
+  margin-left: 10px; 
+  margin-right: 10px;
+}
+
+details summary {
+  color: lightsalmon;
+  font-weight: 500;
+  list-style: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+p{
+  margin-left: 10px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+img {
+  margin-left: 10px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+img[style*="width"][style*="height"] {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 512px;
+}
+
+@media screen and (max-width: 768px) {
+  img[style*="width"][style*="height"] {
+    max-width: 90%;
+    margin: 10px auto;
+    display: block;
+  }
+  
+  .social-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+}
+
+.end{
+  font-weight: 500;
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+}
+
+strong{
+  font-weight: 500;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+address{
+  margin-left: 10px;
+}
