@@ -80,7 +80,7 @@ header {
 
 nav {
   display: flex;
-  margin-left: auto; 
+  margin-left: auto; /* Push the nav to the right */
   margin-right: 20px;
 }
 
@@ -100,11 +100,16 @@ nav ul li a {
   text-decoration: none;
   color: lightgray;
   font-weight: 400;
-  transition: color 0.3s ease;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  display: inline-block;
 }
 
 nav ul li a:hover {
   color: white;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 @keyframes rainbow {
