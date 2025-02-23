@@ -80,7 +80,7 @@ header {
 
 nav {
   display: flex;
-  margin-left: auto; /* Push the nav to the right */
+  margin-left: auto; 
   margin-right: 20px;
 }
 
